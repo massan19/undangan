@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#d4af37">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>The Wedding Of Lil Khayati & Rahmat Bayu A</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+
+<!-- AOS ANIMATION -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- AUDIO -->
+<audio id="musik" loop>
+  <source src="Ari Lasso - Cinta Terakhir  Lirik HQ.mp3" type="audio/mp3">
+</audio>
+
+<!-- COVER -->
+<section class="cover">
+  <div class="cover-box">
+    <h3>The Wedding Of</h3>
+    <h1>Lil Khayati</h1>
+    <h1>&</h1>
+    <h1>Rahmat Bayu A</h1>
+    <p>Kepada Yth:</p>
+    <p>Bapak/Ibu/Saudara/i</p>
+    <h2 id="namaTamu"></h2>
+    <button onclick="openInvite()">Buka Undangan</button>
+  </div>
+</section>
+
+<!-- MAIN -->
+<div id="main">
+
+  <!-- HERO PARALLAX -->
+<section class="cover">
+    <div class="overlay">
+        <div class="content">
+            <h1 class="fade-up">Lil Khayati</h1>
+            <h2 class="fade-up delay1">&</h2>
+            <h1 class="fade-up delay2">Rahmat Bayu A</h1>
+            
+        </div>
+    </div>
+</section>
+
+  <div class="countdown">
+  <div class="box">
+    <span id="hari">0</span>
+    <p>Hari</p>
+  </div>
+  <div class="box">
+    <span id="jam">0</span>
+    <p>Jam</p>
+  </div>
+  <div class="box">
+    <span id="menit">0</span>
+    <p>Menit</p>
+  </div>
+  <div class="box">
+    <span id="detik">0</span>
+    <p>Detik</p>
+  </div>
+</div>
+
+  <!-- MEMPELAI -->
+<section class="section mempelai">
+  <h2>Mempelai</h2>
+
+  <div class="mempelai-wrapper">
+
+    <!-- Perempuan -->
+    <div class="mempelai-box">
+      <img src="MempelaiPerempuan.png" class="foto">
+      <h3>Lil Khayati</h3>
+      <p>Putri dari Bapak Mukhlis (Alm) & Ibu Slamet Markamah</p>
+    </div>
+
+    <!-- Tengah -->
+    <div class="mempelai-tengah">
+      <h1>&</h1>
+    </div>
+
+    <!-- Laki-laki -->
+    <div class="mempelai-box">
+      <img src="MempelaiLaki.png" class="foto">
+      <h3>Rahmat Bayu A</h3>
+      <p>Putra dari Bapak Sulardi & ibu Kusni</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ACARA -->
+  <section class="section" data-aos="fade-up">
+    <h2>Akad</h2>
+    <p>4 Juni 2026</p>
+    <h2>Resepsi</h2>
+    <p>5 Juni 2026</p>
+
+  </section>
+
+  <!-- GALERI -->
+  <section class="section" data-aos="fade-up">
+    <h2>Galeri</h2>
+    <div class="gallery">
+      <img src="foto1.jpeg" loading="lazy">
+      <img src="foto3.jpeg" loading="lazy">
+      <img src="foto2.jpeg" loading="lazy">
+    </div>
+  </section>
+
+  <!-- PARALLAX QUOTE -->
+  <section class="parallax">
+    <h2 data-aos="zoom-in">""Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram dengannya..." (QS. Ar-Rum: 21)."</h2>
+  </section>
+
+  <!-- LOKASI -->
+  <section class="section" data-aos="fade-up">
+    <h2>Lokasi</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3957.8625335148545!2d110.1119659749997!3d-7.256481992750212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTUnMjMuMyJTIDExMMKwMDYnNTIuNCJF!5e0!3m2!1sen!2sid!4v1778027815400!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+</iframe>
+  </section>
+
+  <!-- RSVP -->
+  <section class="rsvp">
+    <h2>Konfirmasi Kehadiran</h2>
+    <p>Mohon konfirmasi kehadiran Anda</p>
+
+    <form>
+        <input type="text" placeholder="Nama Anda" required>
+        
+        <select required>
+            <option value="">Pilih Kehadiran</option>
+            <option>Hadir</option>
+            <option>Tidak Hadir</option>
+        </select>
+
+        <textarea placeholder="Ucapan & Doa"></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<!-- SCRIPT -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
